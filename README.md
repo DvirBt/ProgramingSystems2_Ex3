@@ -11,11 +11,11 @@ The core of this assignment:
 
 Makefile commands:
 -
-- make Main: activates the GUI and runs the game.
-- make test: runs the tests cpp file with doctest.
-- make valgrind: checks for memory leaks.
-- make demo: runs the demo of the game.
-- make clean: removes all irrelevant files.
+- make Main - activates the GUI and runs the game.
+- make test - runs the tests cpp file with doctest.
+- make valgrind - checks for memory leaks.
+- make demo - runs the demo of the game.
+- make clean - removes all irrelevant files.
 
 Structor of my project
 -
