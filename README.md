@@ -1,6 +1,6 @@
 Programing Systems 2 - Assignment 3
 -
-This repository contains the thrid assignment in the course Programming Systems 2 - a variant of the game "Coup".
+This repository contains the third assignment in the course Programming Systems 2 - a variant of the game "Coup".
 
 The core of this assignment:
 -
