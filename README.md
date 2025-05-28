@@ -17,7 +17,7 @@ Makefile commands:
 - make demo: runs the demo of the game.
 - make clean: removes all irrelevant files.
 
-Structur of my project
+Structor of my project
 -
 My project files are divided to 3 main directories.
 GUI - contains all the implementation regarding to the SFML GUI and fonts.
