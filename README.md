@@ -23,6 +23,7 @@ My project files are divided to 3 main directories.
 GUI - contains all the implementation regarding to the SFML GUI and fonts.
 Roles - contains all the different types of players in the game.
 Test - contains the tests of the game. Each class has it's own TEST CASE and a SUB CASE for each function it has.
+
 ![Ex3Structure](https://github.com/user-attachments/assets/96080092-f97b-44ed-b59d-09736c3419ca)
 
 Important note about the rules of the game:
@@ -50,19 +51,25 @@ Information sources:
 The game
 -
 Start page:
+
 ![image](https://github.com/user-attachments/assets/ba9aed30-b2d0-4607-bf39-b9eaf25e7c4b)
 
 Register players:
+
 ![image](https://github.com/user-attachments/assets/7c319c2c-7e0e-4541-8f19-c4d2cba067cd)
 
 A turn in the game:
+
 ![image](https://github.com/user-attachments/assets/45a2265a-650b-451d-8693-1f44fd9afd7d)
 
 Select a player:
+
 ![image](https://github.com/user-attachments/assets/fa579dad-629b-4147-87b5-f936692ea99e)
 
 Block a player:
+
 ![image](https://github.com/user-attachments/assets/f14330e7-3fed-49ed-af62-9034220576eb)
 
 A win in the game:
+
 ![image](https://github.com/user-attachments/assets/b1658be0-6b7b-47f0-b4e2-f610a29d2458)
