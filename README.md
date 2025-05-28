@@ -19,11 +19,12 @@ Makefile commands:
 
 Structor of my project
 -
-My project files are divided to 3 main directories.  
-GUI - contains all the implementation regarding to the SFML GUI and fonts.  
-Roles - contains all the different types of players in the game.  
-Test - contains the tests of the game. Each class has it's own TEST CASE and a SUB CASE for each function it has.  
+My project files are divided to 3 main directories:
+- GUI - contains all the implementation regarding to the SFML GUI and fonts.
+- Roles - contains all the different types of players in the game.
+- Test - contains the tests of the game. Each class has it's own TEST CASE and a SUB CASE for each function it has.
 
+ 
 ![Ex3Structure](https://github.com/user-attachments/assets/96080092-f97b-44ed-b59d-09736c3419ca)
 
 Important note about the rules of the game:
