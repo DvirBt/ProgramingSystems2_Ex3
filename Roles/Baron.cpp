@@ -1,6 +1,7 @@
 // dvirbto@gmail.com
 
 #include "Baron.h"
+#include <ctime> // used to reset the random each round
 using namespace std;
 
 /**
@@ -25,6 +26,9 @@ void Baron::invest()
 
     // pay for the investment
     removeCoins(3);
+
+    // reset the random each time
+    srand(time(nullptr));
 
     // random a number between 0 and 1 -> 50% chance for 0 or 1
     int invest = rand() % 2; // invest = 0 loses the investment, invest = 1 won the investment
