@@ -16,10 +16,33 @@ class Baron : public Player {
         bool invested;
 
     public:
+
+        /**
+         * Construct of a Baron by a given name.
+         */
         Baron(std::string name);
+
+        /**
+         * Destructor of a Baron.
+         */
         ~Baron();
+
+        /**
+         * A Baron can choose to make an Investment in his turn if he has at least three coins.
+         * When he does, he has 50-50 precent of either win back six coins or win nothing.
+         */
         void invest();
+
+        /**
+         * Returns the last result of the investment.
+         * If he won - returns true.
+         * If he lost - returns false.
+         */
         const bool isInvested() const;
+
+        /**
+         * When a Baron is being sanctioned he gets back one coin.
+         */
         virtual void onSanctioned();
 };
 

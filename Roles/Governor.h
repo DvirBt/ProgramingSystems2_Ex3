@@ -14,9 +14,25 @@
 class Governor : public Player
 {
     public:
+
+        /**
+         * Constructor of a Governor by a given name.
+         */
         Governor(std::string name);
+
+        /**
+         * Destructor of a Govenrnor.
+         */
         ~Governor();
-        virtual void tax(); // overrides, virtual is not a must, but it helps to understand
+
+        /**
+         * A Governor gets three coins instead of two when he performs Tax action.
+         */
+        virtual void tax();
+
+        /**
+         * A Governor can block Tax actions of other players - returns true.
+         */
         virtual bool canBlockTax() const;
 };
 

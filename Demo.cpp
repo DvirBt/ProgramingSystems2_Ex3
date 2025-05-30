@@ -29,8 +29,9 @@ void printTurn(const Game* game, string action)
 }
 
 /**
-* This is a Demo of the game "Coup"
-*/
+ * This is a demo of the game "Coup".
+ * Illustrates a run example of the game.
+ */
 int main()
 {
     cout << endl;

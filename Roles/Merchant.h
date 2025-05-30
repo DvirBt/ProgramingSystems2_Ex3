@@ -14,10 +14,28 @@
 class Merchant : public Player{
 
     public:
-    Merchant(std::string name);
-    ~Merchant();
-    void checkEntitled();
-    virtual void onArrested();
+
+        /**
+         * Constructor of a Merchant be a given name.
+         */
+        Merchant(std::string name);
+
+        /**
+         * Destructor of a Merchant.
+         */
+        ~Merchant();
+
+        /**
+         * A Merchant is entitled to get one coin for free if he has at least 3 coins
+         * at the beginning of his turn.
+         */
+        void checkEntitled();
+
+        /**
+         * When a Merchant is being arrested - he pays two coins to the check box.
+         * If he has less than two coins - he pays what he has.
+         */
+        virtual void onArrested();
 };
 
 

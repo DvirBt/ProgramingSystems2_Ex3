@@ -14,9 +14,28 @@
  */
 class General : public Player{
     public:
+
+        /**
+         * Constructor of a General by a given name.
+         */
         General(std::string name);
+
+        /**
+         * Destructor of a General.
+         */
         ~General();
+
+        /**
+         * A General can prevent a Coup made by a player on any of the active players in the game
+         * if he has at least 5 coins.
+         * In this case the attacker loses his 7 coins and his turn.
+         */
         void preventCoup(Player& player);
+
+        /**
+         * When a General is arrested - he gets back the coin that was taken from him 
+         * iff the coin indeed was taken.
+         */
         virtual void onArrested();
 };
 

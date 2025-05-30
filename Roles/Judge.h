@@ -14,8 +14,20 @@
 class Judge : public Player{
 
     public:
+
+        /**
+         * Constructor of a Judge by a given name.
+         */
         Judge(std::string name);
+
+        /**
+         * Destructor of a Judge.
+         */
         ~Judge();
+
+        /**
+         * A Judge can block bribe - this function returns true.
+         */
         virtual bool canBlockBribe() const;
 };
 

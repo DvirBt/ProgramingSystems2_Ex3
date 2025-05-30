@@ -13,8 +13,21 @@
  */
 class Spy : public Player {
     public:
+
+        /**
+         * Constructor of a Spy by a given name.
+         */
         Spy(std::string name);
+
+        /**
+         * Destructor of Spy.
+         */
         ~Spy();
+
+        /**
+         * A Spy can see how many coins does a given player has and prevent from him
+         * to use Arrest method in his next turn.
+         */
         void peek(Player& player);
 };
 
